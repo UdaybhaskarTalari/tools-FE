@@ -1,0 +1,87 @@
+@import "./Variables.scss";
+.stepcontainer {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stepper {
+  width: 50%;
+}
+.stepButton {
+  border: none;
+  background-color: $lightGrey;
+  color: $white;
+  padding: 15px;
+  border-radius: 7px;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+}
+.success{
+    font-size: 20px;
+    font-family: math;
+    color: $green;
+    text-transform: capitalize;
+}
+.warning{
+    font-size: 20px;
+    font-family: math;
+    color: $red;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.download {
+  display: flex;
+}
+.button {
+    padding: 5px 10px;
+    background-color: $lightGrey;
+    color: $white;
+    font-family: Math;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 10px 0px;
+    width: 140px;
+    cursor: pointer;
+  }
+  .button:active{
+    background-color: $orange;;
+  }
+  .button:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+ .form_label{
+  font-weight: 500;
+  text-transform: capitalize;
+ }
+
+.icons{
+      padding: 0px 20px 0px 20px;
+      display: flex;
+      justify-content: space-between;
+  }
+ 
+  .icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .error{
+    color: red;
+    margin:3px 0px 0px 0px;
+    font-size: 12px;
+    font-family: Math;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-start;
+  }

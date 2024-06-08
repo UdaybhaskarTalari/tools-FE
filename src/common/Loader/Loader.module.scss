@@ -1,0 +1,21 @@
+@import '../../styles/Variables.scss';
+.overlay {
+
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: $overlay; /* Black background with opacity */
+  z-index: 2;
+  }
+  
+  .center {
+    position: fixed!important;
+    top: 50%!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%)!important;
+    z-index: 3!important;
+    
+  }
+  

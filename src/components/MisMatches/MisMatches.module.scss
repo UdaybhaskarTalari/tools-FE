@@ -1,0 +1,73 @@
+@import "../../styles/Variables.scss";
+.contianer {
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+.mismatch {
+  // margin-left: 40px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  &_heading {
+    font-size: 20px;
+    color: $black;
+  }
+  &_details {
+    display: flex;
+    font-family: math;
+    flex-direction: column;
+  }
+  &_download {
+    background-color: $lightGrey;
+    border: none;
+    color: $white;
+    padding: 12px 12px;
+    cursor: pointer;
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &_back {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding-right: 40px;
+  }
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+  align-items: center;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.message {
+  color: $green;
+  font-size: 20px;
+  text-align: center;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  border: 1px solid $red;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: xx-large;
+}

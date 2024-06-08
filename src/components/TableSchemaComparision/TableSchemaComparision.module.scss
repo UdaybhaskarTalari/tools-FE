@@ -1,0 +1,62 @@
+@import "../../styles/Variables.scss";
+.container {
+  font-family: math;
+  background-repeat: none;
+  padding-bottom: 10px;
+  margin: 0 50px 0 50px;
+  &_heading {
+    font-size: 24px;
+  }
+  &_caption{
+    font-size: 12px;
+  }
+  &_description {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: left;
+  }
+  &_subheading {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+  }
+  &_textarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    // padding-left: 20px;
+    // padding-right: 20px;
+    &_block {
+      background-color: $azure;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px $grey;
+      border: 1px solid $wheat;
+      margin-bottom: 30px;
+      flex-grow: 1;
+    }
+  }
+
+}
+.compare {
+  display: flex;
+
+}
+.swap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit_button {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex
+}

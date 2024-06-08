@@ -1,0 +1,24 @@
+// @import "../../styles/Variables.scss";
+@import "../../styles/Variables.scss";
+.uploads_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+}
+.button {
+  width: 82%;
+  margin: 0px auto;
+  justify-content: end;
+  display: flex;
+} 
+.form {
+  width: 50%;
+  margin:40px auto auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}

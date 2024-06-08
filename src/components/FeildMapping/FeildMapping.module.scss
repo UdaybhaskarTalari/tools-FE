@@ -1,0 +1,86 @@
+@import "../../styles/Variables.scss";
+.container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px 20px 20px 20px;
+  background-color: beige;
+  height: 300px;
+  overflow: scroll;
+  margin-top: 20px;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.headers {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  &_label {
+    text-align: center;
+    padding: 0px 10px;
+    width: 200px;
+    background-color: $lightGrey;
+    color: $white;
+  }
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  &_source,
+  &_target,
+  &_drop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &_text {
+    width: 200px;
+    text-align: center;
+    background-color: $white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 24px;
+    padding: 20px 10px;
+
+    color: $lightGrey;
+    p {
+      margin: 0px;
+    }
+  }
+}
+.dropped {
+  display: flex;
+  gap: 20px;
+}
+
+.main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  color: $lightGrey;
+  margin: 40px 40px 40px 40px;
+  justify-content: space-between;
+  font-family: Math;
+}
+
+.message {
+  color: $green;
+  text-align: center;
+}
+
+.delete {
+  width: 100%;
+  display: flex;
+  border: none;
+  background-color: $lightGrey;
+  justify-content: end;
+}
+
+.controls {
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+@import '../../styles/Variables.scss';
+.inputselect{
+    display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid $cyan;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.inputtext{
+    display: flex;
+    flex-wrap: wrap;
+}

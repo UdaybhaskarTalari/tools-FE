@@ -1,0 +1,28 @@
+@import '../../styles/Variables.scss';
+
+
+.caption {
+  font-size: 10px;
+  font-weight: 100;
+}
+
+
+.table {
+    width: 90%;
+    margin:auto;
+    border-collapse: collapse;
+    border: 1px solid $black;
+  }
+  
+  th, td {
+    border: 1px solid $black;
+    padding: 10px;
+    text-align: left;
+  }
+  .redRow {
+    background-color: $lightRed;
+    color:$black;
+  }
+  .primary{
+    background-color: aqua;
+  }

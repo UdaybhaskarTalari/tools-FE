@@ -1,0 +1,33 @@
+@import "../../styles/Variables.scss";
+.main {
+  width: 100%;
+  font-family: math;
+  background-repeat: none;
+  margin: 0px 0px 0px 60px;
+  &_cancelNext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 130px;
+  }
+  &_button {
+    padding: 5px 10px;
+    background-color: $lightGrey;
+    color: $white;
+    font-family: Math;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  &_button:hover {
+    border: 2px solid $lightGrey;
+
+    color: $lightGrey;
+    background-color: $white;
+  }
+}
+
+.comparison_button {
+  margin-bottom: 30px;
+}
